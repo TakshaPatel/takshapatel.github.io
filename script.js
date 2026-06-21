@@ -45,7 +45,7 @@ const projects = [
     kicker: 'Desktop App',
     description: 'A custom browser project built with Python and PyQt.',
     action: 'GitHub ->',
-    featured: true
+    featured: false
   },
   {
     name: 'AI Powered Dictionary',
