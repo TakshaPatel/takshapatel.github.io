@@ -83,8 +83,7 @@ const projects = [
 
 const contactInfo = {
   email: 'takshapatel3@gmail.com',
-  github: 'github.com/TakshaPatel',
-  linkedin: 'linkedin.com/in/takshapatel'
+  github: 'github.com/TakshaPatel'
 };
 
 // ---- DOM REFS ----
