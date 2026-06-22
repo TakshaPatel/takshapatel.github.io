@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Blog</title>
+  <title>My internet corner</title>
 
   <style>
     :root {
@@ -103,15 +103,40 @@
       color: var(--muted);
       font-size: 0.85rem;
     }
+    .navbar {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 48px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid var(--border);
+}
+
+.navbar a {
+  color: var(--muted);
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  transition: color 0.2s ease;
+}
+
+.navbar a:hover {
+  color: var(--accent);
+}
   </style>
 </head>
 <body>
 
   <div class="container">
 
+    <nav class="navbar">
+  <a href="/">[PORTFOLIO]</a>
+  <a href="/privacy_policy.html">[QUE PRIVACY POLICY]</a>
+</nav>
+
     <header>
-      <h1>Blog</h1>
-      <p>Thoughts, projects, experiments, and notes.</p>
+      <h1>My Internet Corner</h1>
+      <p>Projects, thoughts, experiments, notes, and whatever else I'm working on.</p>
     </header>
 
     <div class="post-list" id="posts"></div>
