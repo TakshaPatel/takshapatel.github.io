@@ -6,12 +6,14 @@
 // ---- DATA ----
 
 const titles = [
-  'Cybersecurity Researcher',
+  'Security Researcher',
   'Systems Engineer',
   'Software Developer',
   'Linux Enthusiast',
   'Network Analyst',
-  'Student'
+  'Student',
+  'Puzzle Solver',
+  'Problem Solver'
 ];
 
 const projects = [
