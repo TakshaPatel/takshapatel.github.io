@@ -123,6 +123,13 @@
 .navbar a:hover {
   color: var(--accent);
 }
+    .callout {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 20px 24px;
+      margin-bottom: 40px;
+    }
   </style>
 </head>
 <body>
@@ -137,8 +144,11 @@
 </nav>
 
     <header>
-      <h1>Taksha's Corner of the Internet</h1>
-      <p>Hi! I'm Taksha. This site hosts projects, thoughts, experiments, notes, and whatever else I'm working on. I wont bother to fix my grammer, spelling, capitalization, or punctuation</p>
+    <h1>Taksha's Corner of the Internet</h1>
+        <div class="callout">
+    <p><strong>Hi! I'm Taksha</strong>, a person that enjoys computers. I like to solve cryptography puzzles, program solutions, apps, tools, games, and break things. </p>
+    </div>
+      <p>This site hosts projects, thoughts, experiments, notes, and whatever else I'm working on. I wont bother to fix my grammer, spelling, capitalization, or punctuation</p>
     </header>
 
     <div class="post-list" id="posts"></div>
